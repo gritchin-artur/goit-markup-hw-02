@@ -1,65 +1,70 @@
 * {
   margin: 0;
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+
   background-color: #ffffff;
   padding: 40px;
 }
 
 /* header  */
 
-.WEB {
-  font-family: "Raleway";
+.web {
+  font-family: "Raleway", sans-serif;
+
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
   color: blue;
 }
-.STUDIO {
-  font-family: "Raleway";
+
+.studio {
+  font-family: "Raleway", sans-serif;
+
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.hat {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.hat {
-  color: #434455;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-.hat:hover {
+.hat:hover,
+.hat:focus {
   color: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
 }
 .contact {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
-.contact:hover {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
-.hat-link.hat .contact {
+.hat.contact {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -67,7 +72,8 @@ body {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -75,10 +81,16 @@ h1 {
   background-color: #2e2f42;
 }
 .button-order {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -87,14 +99,16 @@ h1 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-p {
+.text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -105,29 +119,42 @@ p {
 }
 
 /* footer */
-.footer {
+.top-footer {
   background-color: #2e2f42;
 }
-.F {
-  color: #e7e9fc;
-}
 
-.STUDI0 {
-  font-family: "Raleway";
+.footer-studio {
+  font-family: "Raleway", sans-serif;
+
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
   color: #f4f4fd;
+}
+
+.about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
 
 /* Portfolio */
 
 .navigation-list-item {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
-.navigation-list-item:hover {
+.navigation-list-item:hover,
+.navigation-list-item:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
